@@ -16,13 +16,15 @@ asterisk = ['F', 'A', 'J', 'E', 'R']
 parens = ['K', 'B', 'M', 'E', 'Y']
 
 
-mystery_word = (three + semicolon + asterisk + parens)
+#mystery_word = (three[something] + semicolon[something] + asterisk[something] + parens[something])
 
+# Manually we can do this:
+ 
 #print (three[4] + semicolon[3] + asterisk[2] + parens[1])
 #print (three[2] + semicolon[3] + asterisk[4] + parens[1])
 #print (three[3] + semicolon[4] + asterisk[1] + parens[2])
 
-# Try using random in range
+# Try using random in range. This generates some patterns but not all possible ones.
 
 for num in range(0,5):
     for letter in ('three', 'semicolon', 'asterisk', 'parens'):
@@ -33,7 +35,7 @@ for num in range(0,5):
         new_word = (letter[randnum1] + letter[randnum2] + letter[randnum3] + letter[randnum4])
         print(new_word)
 
-
+# Example random words generated:
 #Word in range {0} HNFK
 #Word in range {1} EOAB
 #Word in range {2} PLJM
